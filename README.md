@@ -1,5 +1,5 @@
 # Hands-On-Line-Chart-with-Python
-**Drawing a satisfactory line chart by matplotlib.pyplot**
+***Drawing a satisfactory line chart by matplotlib.pyplot***
 
 - Same article on Medium: https://medium.com/analytics-vidhya/ml11-16baa318c73b
 
