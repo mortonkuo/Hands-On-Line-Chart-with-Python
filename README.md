@@ -34,6 +34,7 @@ There are a couple of main challenges of machine learning as follows: [1]
 6.  Underfitting the Training Data
 
 ![01](01_Insufficient_data.png)
+
 Figure 1: Peformances of algorithms given enough data
 
 > In a famous paper published in 2001, Microsoft researchers Michele Banko and Eric Brill showed that very different Machine Learning algorithms, including fairly simple ones, performed almost identically well on a complex problem of natural language disambiguation once they were given enough data.
@@ -51,52 +52,90 @@ So, visualization is the right tool to help solve those three challenges — “
 ## (2) Our goal: A Real-World Case
 Let’s go straight to a real-world case— the line chart we desire — then we would see how to build this satisfactory line chart from scratch. “Up”, “Down”, and “Unchanged” stand for the targeted Fed fund rate change after every FOMC meeting.
 
-![01](02_FOMC_Primitive.png)
+![10](10_FOMC_Up_Down_Unchanged.png)
+
 Figure 2: The desired line chart. It will appear again at the end of this article.
 
 
 ## (3) Starting Point: A Primitive Line Chart
 
+![02](02_FOMC_Primitive.png)
 
+Figure 3: A primitive line chart.
 
 Check matplotlib’s official document for more details (setting markers, colors) of matplotlib.pyplot.plot. Also, check the matplotlib’s official document for the complete list of named colors. Note that Pickle is a Python-specific data format.
 
 
 ## (4) High Definition & Tight Layout
 
+![03](03_FOMC_High_Definition_Tight_Layout.png)
+
+Figure 4: High definition & tight layout.
 
 
 ## (5) Figure size & Font Size
 
+![04](04_FOMC_Figure_Size_Font_Size.png)
+
+Figure 5: Figure size & font size.
 
 The following annotations are noteworthy.
 
 1. family: A list of font names in decreasing order of priority. The items may include a generic font family name, either 'serif', 'sans-serif', 'cursive', 'fantasy', or 'monospace'. In that case, the actual font to be used will be looked up from the associated rcParam. Try fontname = 'Comic Sans MS' & fontname="Arial".
 2. fontsize: Either an relative value of 'xx-small', 'x-small', 'small', 'medium', 'large', 'x-large', 'xx-large' or an absolute font size, e.g., 12.
 
+
 ## (6) Axis & Type of Line and Marker
+
+![05](05_FOMC_Axis_Line_Type.png)
+
+Figure 6: Axis & type of line and marker.
 
 
 ## (7) Grid
 
+![06](06_FOMC_Grid_1.png)
+
+Figure 7: Grid_1.
 
 Then, let’s see what can we do to create extraordinary grid. Just adjust the line plt.grid( ).
 
+![07](07_FOMC_Grid_2.png)
+
+Figure 8: Grid_2.
+
 Check matplotlib’s official document matplotlib.pyplot.grid.
+
 
 ## (8) More Info: Shadow
 
+![08](08_FOMC_Shadow.png)
+
+Figure 9: More info: shadow.
 
 The light blue spans are recessions. Check US National Bureau of Economic Research & matplotlib.pyplot.axvspan.
 
+
+
 ## (9) More Info: Annotation
+
+![09](09_FOMC_Annotation.png)
+
+Figure 10: More info — annotation.
 
 Check matplotlib.pyplot.annotate or Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython (2nd ed.).
 
 
 ## (10) More Info: Up, Down or Unchanged
 
+![10](10_FOMC_Up_Down_Unchanged.png)
+
+Figure 11: More info: up, down or unchanged.
+
 “Up”, “Down”, and “Unchanged” stand for the targeted Fed fund rate change after every FOMC meeting.
 
-
 Finally, here we see this satisfactory line chart again! We can compare it with the graph below.
+
+![11](11_Fed_fund_rate_change_from_FRED.png)
+
+Figure 12: Effective Federal funds rate. [12]
