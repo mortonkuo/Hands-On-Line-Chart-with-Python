@@ -33,6 +33,7 @@ There are a couple of main challenges of machine learning as follows: [1]
 5.  Overfitting the Training Data
 6.  Underfitting the Training Data
 
+![01](01_Insufficient_data.png)
 Figure 1: Peformances of algorithms given enough data
 
 > In a famous paper published in 2001, Microsoft researchers Michele Banko and Eric Brill showed that very different Machine Learning algorithms, including fairly simple ones, performed almost identically well on a complex problem of natural language disambiguation once they were given enough data.
@@ -50,6 +51,7 @@ So, visualization is the right tool to help solve those three challenges — “
 ## (2) Our goal: A Real-World Case
 Let’s go straight to a real-world case— the line chart we desire — then we would see how to build this satisfactory line chart from scratch. “Up”, “Down”, and “Unchanged” stand for the targeted Fed fund rate change after every FOMC meeting.
 
+![01](02_FOMC_Primitive.png)
 Figure 2: The desired line chart. It will appear again at the end of this article.
 
 
