@@ -1,6 +1,7 @@
 # Hands-On-Line-Chart-with-Python
-Drawing a satisfactory line chart by matplotlib.pyplot
+**Drawing a satisfactory line chart by matplotlib.pyplot**
 
+- Same article on Medium: https://medium.com/analytics-vidhya/ml11-16baa318c73b
 
 - Visualization always comes first when it comes to ML/DS project. Visualization help get insights of a given dataset, and through EDA (exploratory data analysis) we rely on visualization and other manners to prepare for building a performant model.
 
