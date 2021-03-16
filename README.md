@@ -35,7 +35,7 @@ There are a couple of main challenges of machine learning as follows: [1]
 
 ![01](01_Insufficient_data.png)
 
-Figure 1: Peformances of algorithms given enough data
+*Figure 1: Peformances of algorithms given enough data*
 
 > In a famous paper published in 2001, Microsoft researchers Michele Banko and Eric Brill showed that very different Machine Learning algorithms, including fairly simple ones, performed almost identically well on a complex problem of natural language disambiguation once they were given enough data.
 As the authors put it: “these results suggest that we may want to reconsider the tradeoff between spending time and money on algorithm development versus spending it on corpus development.” 
@@ -54,14 +54,14 @@ Let’s go straight to a real-world case— the line chart we desire — then we
 
 ![10](10_FOMC_Up_Down_Unchanged.png)
 
-Figure 2: The desired line chart. It will appear again at the end of this article.
+*Figure 2: The desired line chart. It will appear again at the end of this article.*
 
 
 ## (3) Starting Point: A Primitive Line Chart
 
 ![02](02_FOMC_Primitive.png)
 
-Figure 3: A primitive line chart.
+*Figure 3: A primitive line chart.*
 
 Check matplotlib’s official document for more details (setting markers, colors) of matplotlib.pyplot.plot. Also, check the matplotlib’s official document for the complete list of named colors. Note that Pickle is a Python-specific data format.
 
