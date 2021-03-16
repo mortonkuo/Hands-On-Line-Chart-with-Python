@@ -70,14 +70,14 @@ Check matplotlib’s official document for more details (setting markers, colors
 
 ![03](03_FOMC_High_Definition_Tight_Layout.png)
 
-Figure 4: High definition & tight layout.
+*Figure 4: High definition & tight layout.*
 
 
 ## (5) Figure size & Font Size
 
 ![04](04_FOMC_Figure_Size_Font_Size.png)
 
-Figure 5: Figure size & font size.
+*Figure 5: Figure size & font size.*
 
 The following annotations are noteworthy.
 
@@ -89,20 +89,20 @@ The following annotations are noteworthy.
 
 ![05](05_FOMC_Axis_Line_Type.png)
 
-Figure 6: Axis & type of line and marker.
+*Figure 6: Axis & type of line and marker.*
 
 
 ## (7) Grid
 
 ![06](06_FOMC_Grid_1.png)
 
-Figure 7: Grid_1.
+*Figure 7: Grid_1.*
 
 Then, let’s see what can we do to create extraordinary grid. Just adjust the line plt.grid( ).
 
 ![07](07_FOMC_Grid_2.png)
 
-Figure 8: Grid_2.
+*Figure 8: Grid_2.*
 
 Check matplotlib’s official document matplotlib.pyplot.grid.
 
@@ -111,7 +111,7 @@ Check matplotlib’s official document matplotlib.pyplot.grid.
 
 ![08](08_FOMC_Shadow.png)
 
-Figure 9: More info: shadow.
+*Figure 9: More info: shadow.*
 
 The light blue spans are recessions. Check US National Bureau of Economic Research & matplotlib.pyplot.axvspan.
 
@@ -121,7 +121,7 @@ The light blue spans are recessions. Check US National Bureau of Economic Resear
 
 ![09](09_FOMC_Annotation.png)
 
-Figure 10: More info — annotation.
+*Figure 10: More info — annotation.*
 
 Check matplotlib.pyplot.annotate or Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython (2nd ed.).
 
@@ -130,7 +130,7 @@ Check matplotlib.pyplot.annotate or Python for Data Analysis: Data Wrangling wit
 
 ![10](10_FOMC_Up_Down_Unchanged.png)
 
-Figure 11: More info: up, down or unchanged.
+*Figure 11: More info: up, down or unchanged.*
 
 “Up”, “Down”, and “Unchanged” stand for the targeted Fed fund rate change after every FOMC meeting.
 
@@ -138,4 +138,4 @@ Finally, here we see this satisfactory line chart again! We can compare it with 
 
 ![11](11_Fed_fund_rate_change_from_FRED.png)
 
-Figure 12: Effective Federal funds rate. [12]
+*Figure 12: Effective Federal funds rate. [12]*
