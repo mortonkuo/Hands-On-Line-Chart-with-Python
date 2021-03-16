@@ -8,18 +8,20 @@
 - This data is the word counts of FOMC minutes from 1993/01 ~ 2020/09 after data selection and data pre-processing (by me), along with the Fed fund rate change after each FOMC. FOMC minute is released 3 weeks after every FOMC meeting. The data sources come from FOMC minutes & FOMC’s target federal funds rate or range, change (basis points) and level.
 
 ## Outline
-(1) Importance of Visualization in a ML/DS Project
-(2) Our goal: A Real-World Case
-(3) Starting Point: A Primitive Line Chart
-(4) High Definition & Tight Layout
-(5) Figure size & Font Size
-(6) Axis & Type of Line and Marker
-(7) Grid
-(8) More Info: Shadow
-(9) More Info: Annotation
-(10) More Info: Up, Down or Unchanged
-(11) Reference
-(1) Importance of Visualization in a ML/DS Project
+(1) Importance of Visualization in a ML/DS Project \
+(2) Our goal: A Real-World Case \
+(3) Starting Point: A Primitive Line Chart \
+(4) High Definition & Tight Layout \
+(5) Figure size & Font Size \
+(6) Axis & Type of Line and Marker \
+(7) Grid \
+(8) More Info: Shadow \
+(9) More Info: Annotation \
+(10) More Info: Up, Down or Unchanged \
+(11) Reference \
+
+
+## (1) Importance of Visualization in a ML/DS Project
 
 > … that very different Machine Learning algorithms, including fairly simple ones, performed almost identically well on a complex problem of natural language disambiguation once they were given enough data. [1]
 
@@ -34,8 +36,8 @@ There are a couple of main challenges of machine learning as follows: [1]
 Figure 1: Peformances of algorithms given enough data
 
 > In a famous paper published in 2001, Microsoft researchers Michele Banko and Eric Brill showed that very different Machine Learning algorithms, including fairly simple ones, performed almost identically well on a complex problem of natural language disambiguation once they were given enough data (as you can see in Figure 1).
-As the authors put it: “these results suggest that we may want to reconsider the tradeoff between spending time and money on algorithm development versus spending it on corpus development.”
-> The idea that data matters more than algorithms for complex problems was further popularized by Peter Norvig et al. in a paper titled “The Unreasonable Effectiveness of Data” published in 2009.10 It should be noted, however, that small- and mediumsized datasets are still very common, and it is not always easy or cheap to get extra training data, so don’t abandon algorithms just yet.
+As the authors put it: “these results suggest that we may want to reconsider the tradeoff between spending time and money on algorithm development versus spending it on corpus development.” \
+> The idea that data matters more than algorithms for complex problems was further popularized by Peter Norvig et al. in a paper titled “The Unreasonable Effectiveness of Data” published in 2009.10 It should be noted, however, that small- and mediumsized datasets are still very common, and it is not always easy or cheap to get extra training data, so don’t abandon algorithms just yet. \
 > It should be noted, however, that small- and medium- sized datasets are still very common, and it is not always easy or cheap to get extra training data, so don’t abandon algorithms just yet. [1]
 
 Now that we see how major the sufficient quantity of data can impact a ML/DS project, it’s a not a surprise that the other challenges like “Nonrepresentative Training Data”, “Poor-Quality Data”, “Irrelevant Features” may significantly affect the performance of a ML/DS project. \
